@@ -1,0 +1,126 @@
+body {
+    background-image: url(../v-card/img/colorkit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nom {
+    color: #377b91;
+}
+
+#p1 {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+#p2 {
+    color: grey;
+    font-size: 12px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.marg-left-s {
+    margin-left: 20px;
+}
+
+.marg-left-2 {
+    margin-left: 30px;
+}
+
+.marg-right-s{
+    margin-right: 20px;
+}
+
+.marg-right-b {
+    margin-right: 300px;
+}
+
+.marg-top-s {
+    margin-top: 70px;
+}
+
+.marg-top-b {
+    margin-top: 75px;
+}
+
+.name {
+    justify-content: start;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    justify-content: end;
+}
+
+.logo2 {
+    height: 50px;
+    width: 50px;
+}
+
+.right {
+    justify-content: end;
+}
+
+.section-card {
+    justify-content: right;
+}
+
+.card {
+    flex-direction: column;
+    justify-content: right;
+}
+
+.button-1 {
+    border-radius: 30px;
+    background-color: #377b91;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+    margin-right: 20px;
+    width: 150px;
+    border: none;
+}
+
+.button-2 {
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+h3 {
+    margin: 3px;
+}
+
+.findme {
+height: 25px;
+width: 25px;
+padding-right: 5px;
+padding-left: 5px;
+}
