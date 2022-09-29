@@ -91,6 +91,11 @@ a {
     justify-content: right;
 }
 
+.pp {
+    height: 2px;
+    width: 1px;
+}
+
 .card {
     flex-direction: column;
     justify-content: right;
