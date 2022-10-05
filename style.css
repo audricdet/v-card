@@ -1,5 +1,5 @@
 body {
-    background-image: url(../v-card/img/colorkit.png);
+    background-image: url(./img/colorkit.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
@@ -96,8 +96,6 @@ a {
     justify-content: center;
 }
 
-
-
 .pp {
     height: 2px;
     width: 1px;
@@ -137,3 +135,68 @@ width: 25px;
 padding-right: 5px;
 padding-left: 5px;
 }
+
+/*for smartphone */ 
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(./img/colorkit2.jpg);
+        width: 100%;
+    }
+    .section-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button {
+        justify-content: center;
+    }
+    .contact {
+        align-items: flex-end;
+    }
+    contact, h3 {
+        color: black;
+    }
+    contact, a{
+        color: black;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+/* for tablet */
+@media only screen and (min-width :600px) and (max-width :1023px) {
+    body{
+        background-image: url(./img/colorkit2.jpg);
+        width: 100%;
+    }
+    .section-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button {
+        justify-content: center;
+    }
+    .contact {
+        align-items: flex-end;
+    }
+    contact, h3 {
+        color: black;
+    }
+    contact, a{
+        color: black;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
